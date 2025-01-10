@@ -1,7 +1,7 @@
 from circleshape import *
 
 
-def Player(CircleShape):
+class Player(CircleShape):
     def __init__(self, x, y, PLAYER_RADIUS):
         super().__init__()
         rotation = 0
